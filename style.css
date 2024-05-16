@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    padding: 20px;
+    margin: 20px auto;
+    }
+    .container_reg {
+    margin: 10px 0; /* изменено на 10px */
+    text-align: center;
+    min-height: calc(100vh - 220px); /* изменено на 220px */
+    }
+    h2{
+        color:white;
+    }
+    
+
+    input {
+    width: 200px;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    padding: 3px 10px;
+    }
+    body{
+        background-color: #2e3a44;
+    }
+    .header1{
+        background-color:#2e3a44 ;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 100px;
+      }
+      
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      
+      .logoimage{
+        margin-top: 20px;
+      }
+      
+      ul{
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+      }
+    
